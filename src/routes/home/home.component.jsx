@@ -32,8 +32,8 @@ const Home = () => {
 
   return (
     <div>
-      <Outlet />
       <CategoryMenu categories={categories} />;
+      <Outlet />
     </div>
   );
 };
